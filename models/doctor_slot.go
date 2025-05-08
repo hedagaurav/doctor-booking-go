@@ -15,7 +15,7 @@ type DoctorSlot struct {
 	EndTime   time.Time
 	// gap in between 2 sessions.
 	// 0 means no gap
-	// 1 means 1 hour gap
+	// 5 means 5 minute gap
 
 	GapBetweenSessions int
 	Duration           int

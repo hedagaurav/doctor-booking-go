@@ -11,6 +11,9 @@ type Appointment struct {
 	gorm.Model
 	DoctorID  uint
 	PatientID uint
-	SlotTime  time.Time
-	Status    string
+	// SlotDate is the date of the appointment
+	// SlotTime is the time of the appointment
+	SlotDate string
+	SlotTime time.Time
+	Status   string
 }
